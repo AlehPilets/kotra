@@ -8,6 +8,7 @@ import { qrcode } from 'vite-plugin-qrcode'
 export default defineConfig({
   plugins: [
 		react(),
+		tailwindcss(),
 		qrcode() 
 	],
 	base: "/kotra/",
