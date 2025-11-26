@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')!).render(
 	<StrictMode>
 		<HeroUIProvider>
-			<BrowserRouter>
+			<BrowserRouter basename="/kotra">
 				<App />
 			</BrowserRouter>
 		</HeroUIProvider>
